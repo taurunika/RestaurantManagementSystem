@@ -1,0 +1,46 @@
+<html>
+<head>
+</head>
+<style>
+body
+{
+	background-image:url(8.jpg);
+	background-repeat:no repeat;
+	background-size:cover;
+}
+</style>
+<form action="http://localhost/projects/addcustomer_php.php">
+<body>
+</br></br>
+<h1><b><I><font color="black" size=30>ADD CUSTOMER</I></b></font></h1><hr></br></br></br>
+
+</br>
+<label><b><I><font color="black">CUSTOMER ID :</I></b></label>  <input type="number" min="1000" max="2000" name="Cust_id" required="true"></br></br></br>
+</font>
+<label><b><I><font color="black">BRANCH ID :</I></b></label>  <input type="number" min="1" max="99" name="Br_id" required="true"></br></br></br>
+</font>
+<label><b><I><font color="black">CUSTOMER NAME :</I></b></label>  <input type="text" name="Cust_Name"  required="true"></br></br></br>
+</font>
+<label><b><I><font color="black">GENDER :</I></b></label>  <input type="radio" name="gender" value="male" required="true"> MALE
+				 <input type="radio" name="gender" value="female" required="true"> FEMALE
+                                                <input type="radio" name="gender" value="others" required="true">OTHERS</br></br></br>
+</font>
+<label><b><I><font color="black">CONTACT NUMBER :</I></b></label>  <input type="number"  name="CPhone" required="true"></br></br></br>
+</font>
+<label><b><I><font color="black">REVIEW :</I></b></label>   </font>
+<select name="Review">
+<option disabled selected value>---select from options---</option>
+<option
+value="VERY GOOD">VERY GOOD</option>
+<option
+value="GOOD">GOOD</option>
+<option
+value="SATISFIABLE">SATISFIABLE</option>
+<option
+value="BAD">BAD</option>
+</select>
+</br></br></br>
+<input type="submit" name="button"  style="height: 40px; width: 90px"  value="ADD"></center>
+</form>
+</body>
+</html>

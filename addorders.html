@@ -1,0 +1,36 @@
+<html>
+<head>
+
+
+</head>
+<style>
+body{
+	background-image:url(6.jpg);
+	background-repeat:no repeat;
+	background-size:cover;
+}
+</style>
+<body>
+
+</br>
+</br>
+<h1><b><I>ADD ORDERS</I></b></h1></br></br></br>
+
+<form action="http://localhost/projects/addorders_php.php">
+<label><b><I>ORDER NUMBER:</I></b></label>  <input type="number" min="1" max="100"  name="Ord_No" required="true"></br></br></br></br>
+
+<label><b><I>FOOD ID:</I></b></label>  <input type="number" min="100" max="900" name="Fid" required="true"></br></br></br></br>
+
+<label><b><I>ORDER TYPE:</I></b></label>  <input type="radio" name="Ord_type" required="true" value="parcel"> PARCEL
+
+                                       <input type="radio" name="Ord_type" required="true" value="service"> SERVICE</br></br></br></br>
+
+<label><b><I>ORDER DATE:</I></b></label>  <input type="date" name="Ord_Date" required="true"></br></br></br></br>
+
+<label><b><I>TABLE NUMBER:</I></b></label>  <input type="text" name="Table_no"></br>
+<font color="blue">Note:fill the table number field only if </br>order type is service</br></br></br></br></font>
+
+  <input type="submit" name="button"  style="height: 30px; width: 90px"  value="ADD">
+
+</body>
+</html>

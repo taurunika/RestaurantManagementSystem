@@ -1,0 +1,44 @@
+<html>
+<head>
+
+
+</head>
+<style>
+
+body{
+	background-image:url(10.jpg);
+	background-repeat:no repeat;
+	background-size:cover;
+}
+</style>
+<body>
+
+<h1><b><I>ADD STAFF</I></b></font></h1></br>
+
+<form action="http://localhost/projects/addstaff_php.php">
+<label><b><I>STAFF ID:</I></b></label>  <input type="number" min="1010" max="2020" name="Sf_id" required="true"></br></br></br>
+</font>
+<label><b><I>BRANCH ID:</I></b></label>  <input type="number" min="1" max="99" name="Br_id" required="true"></br></br></br>
+</font>
+<label><b><I>STAFF NAME:</I><b></label>  <input type="text" name="Sf_Name" required="true"></br></br></br>
+
+<label><b><I>GENDER:</I></b></label>  <input type="radio" name="sgender" value="male"> MALE
+				<input type="radio" name="sgender" value="female"> FEMALE
+                                                <input type="radio" name="sgender" value="others"> OTHERS</br></br></br></font>
+<label><b><I>DATE OF BIRTH :</i></b></label> <input type="date" name="dob" required="true"></br></br></br>
+</font>
+<label><b><I>DATE OF JOINING :</i></b></label> <input type="date" name="date_of_joining" required="true"></br></br></br>
+</font>
+<label><b><I>DESIGNATION:</I></b></label>  <input type="radio" name="Designation" value="MANAGER" required="true"> MANAGER
+                                         <input type="radio" name="Designation" value="CHEF" required="true"> CHEF
+                                         <input type="radio" name="Designation" value="WAITER" required="true"> WAITER
+			     <input type="radio" name="Designation" value="CLEANER" required="true"> CLEANER
+                                         <input type="radio" name="Designation" value="CASHIER" required="true"> CASHIER</br></br></br>
+</font>
+<label><b><I>SALARY:</I></b></label>  <input type="text" name="Sal" required="true"></br></br></br>
+</font>
+<label><b><I>CONTACT NUMBER:</I></b></label>  <input type="number" name="Scontact" required="true"></br></br></br></font>
+<input type="submit" name="button"  style="height: 40px; width: 90px"  value="ADD">
+
+</body>
+</html>

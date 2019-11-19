@@ -1,0 +1,46 @@
+<html>
+<head>
+</head>
+
+
+<style>
+body{
+	background-image:url(oo.jpg);
+	background-repeat:no repeat;
+	background-size:cover;
+}
+</style>
+<body>
+<center>
+</br>
+</br></br></br></br></br></br>
+<h1><b><I><font color="white" size=50>ADD FOOD</I><b></h1></font><hr></br></br>
+
+<form action="http://localhost/projects/addfood_php.php">
+<label><b><I>FOOD ID :</I><b></label>  <input type="number" min="100" max="900" name="Fid" required="true"></br></br></br>
+
+
+<label><b><I>FOOD NAME :</I><b></label>  <input type="text" name="FName"  required="true"></br></br></br>
+
+<label><b><I>FOOD CATEGORY :</I><b></label>  
+<select name="FCategory">
+<option disabled selected value>--select from options---</option>
+<option
+value="Indian">Indian</option>
+<option
+value="Starters">Starters</option>
+<option
+value="Chinese">Chinese</option>
+<option
+value="Juices">Juices</option>
+<option
+value="Desserts">Desserts</option>
+</select>
+</br></br></br>
+
+<label><b><I>FOOD PRICE :Rs</I><b></label>  <input type="number" name="FPrice" required="true"></br></br></br>
+
+<input type="submit" name="button"  style="height: 40px; width: 90px"  value="ADD">
+</center>
+</body>
+</html>

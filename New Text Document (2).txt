@@ -1,0 +1,16 @@
+<option
+value="thpf">3.5</option>
+<option
+value="fpz">4.0</option>
+<option
+value="fpf">4.5</option>
+<option
+value="five">5.0</option>
+
+
+
+<input type="submit" name="button" style="height: 30px; width: 200px" value="EDIT BRANCH "></bc></bc>
+<input type="submit" name="button" style="height: 30px; width: 200px" value="EDIT FOOD ITEMS"></bc></bc>
+<input type="submit" name="button" style="height: 30px; width: 200px" value="EDIT ORDERS"></bc></bc>
+<input type="submit" name="button" style="height: 30px; width: 200px" value="EDIT CUSTOMER DETAILS"></bc></bc>
+<input type="submit" name="button" style="height: 30px; width: 200px" value="EDIT STAFF DETAILS"></br></br></br></br>
